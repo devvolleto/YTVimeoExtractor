@@ -10,7 +10,6 @@
 #import "YTVimeoError.h"
 #import "YTVimeoVideo+Private.h"
 @interface YTVimeoVideo ()
-@property (nonatomic, strong) NSDictionary *infoDict;
 
 @end
 NSString *const YTVimeoVideoErrorDomain = @"YTVimeoVideoErrorDomain";

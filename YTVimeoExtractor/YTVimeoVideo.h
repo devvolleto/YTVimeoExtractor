@@ -98,6 +98,11 @@ It is very important that you do not create a subclass of `YTVimeoVideo`
 @property (nonatomic, readonly) NSTimeInterval duration;
 
 /**
+ *  Info retreived from Vimeo service
+ */
+@property (nonatomic, strong) NSDictionary *infoDict;
+
+/**
  *  A `NSDictionary` object that contains the various stream URLs.
  * @see YTVimeoVideoQuality
  */
